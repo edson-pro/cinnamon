@@ -1,7 +1,3 @@
-import Head from "next/head";
-import Link from "next/link";
-import { Fragment, useRef, useState } from "react";
-import Button from "../components/ui/Button";
 import AgileTeam from "../components/sections/AgileTeam";
 import Blog from "../components/sections/Blog";
 import College from "../components/sections/College";
@@ -12,7 +8,8 @@ import Services from "../components/sections/Services";
 import Testimonies from "../components/sections/Testimonies";
 import WhoWeAre from "../components/sections/WhoWeAre";
 import WorkTogether from "../components/sections/WorkTogether";
-import Hero from "../components/sections/hero";
+import Hero from "../components/sections/Hero";
+import { Fragment } from "react";
 export default function Home() {
   return (
     <Fragment>
