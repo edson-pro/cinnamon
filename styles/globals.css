@@ -4,7 +4,7 @@
 
 /* * {
   cursor: url(/images/cursor_normal.svg), auto;
-}
+}  vvvvvvv
 *:active {
   cursor: url(/images/cursor_active.svg), auto;
 } */
@@ -14,8 +14,10 @@
 .footer {
   background-image: url(/images/noise.png);
 }
-
-.css-18deho8 {
+body {
+  @apply overflow-x-hidden;
+}
+.play-icon {
   border-width: 8px 0px 8px 13px;
   border-style: solid;
   border-color: transparent transparent transparent #5135ff;
@@ -27,6 +29,9 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   border-color: transparent transparent transparent #ffffff;
+}
+.play-icon--sticky {
+  border-color: transparent transparent transparent #5135ff;
 }
 
 @font-face {
@@ -79,6 +84,15 @@
   transform: translate(-50%, -50%);
   transition: box-shadow 0.4s ease-in-out 0s;
 }
-.css-1cxrivo {
+/* .css-1cxrivo {
   cursor: url(/images/cursor_active.svg), auto;
+} */
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }

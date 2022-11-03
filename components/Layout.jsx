@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import Footer from "./Footer";
-import Navabar from "./Navabar";
+import Footer from "./layout/Footer";
+import Navabar from "./layout/Navabar";
 
 export default function Layout({ children }) {
   return (

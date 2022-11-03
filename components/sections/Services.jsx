@@ -1,0 +1,60 @@
+import React from "react";
+import ServiceCard from "../cards/service";
+import Button from "../ui/Button";
+
+export default function Services() {
+  return (
+    <div className="bg-[#1C1C1C] hero py-14 lg:py-28 ">
+      <div className="max-w-6xl gap-5 py-10 mx-auto px-5 grid grid-cols-2 lg:grid-cols-5">
+        <div className="col-span-2 lg:mb-0 mb-10">
+          <h4 className="text-5xl text-white leading-[50px] font-MontBold lg:font-MontHeavy ">
+            Our services
+          </h4>
+        </div>
+        <div className="col-span-3">
+          <div className="grid grid-cols-1 md:grid-cols-2  gap-10 md:gap-20">
+            <ServiceCard
+              image={
+                "https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fproduct-design.cdb049ad.png&w=96&q=75"
+              }
+              description={
+                "Producing, prototyping and testing sketches, high-fidelity wireframes and the final UI is a process that results in intuitive and impactful design that’s easy on the eyes."
+              }
+              title={"Product design"}
+            />{" "}
+            <ServiceCard
+              image={
+                "https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdevelopment.1440a123.png&w=96&q=75"
+              }
+              description={
+                "By selecting the befitting tech stack and architecture for the deliverable in question, we build out the product until it's a fully-fledged digital solution."
+              }
+              title={"Development"}
+            />{" "}
+            <ServiceCard
+              image={
+                "https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fquality-assurance.9e7ba47b.png&w=96&q=75"
+              }
+              description={
+                "Our QA engineering team makes your product bug-free, bulletproof and performance-driven through both automatic and manual testing."
+              }
+              title={"Quality assurance"}
+            />{" "}
+            <ServiceCard
+              image={
+                "https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmarketing-and-growth.35184bb3.png&w=96&q=75"
+              }
+              description={
+                "By understanding the mechanics of digital marketing, we make sure to put your product, at the right time, in front of the right people."
+              }
+              title={"Marketing & growth"}
+            />
+          </div>
+          <div className="mt-10">
+            <Button>See Our Services</Button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
