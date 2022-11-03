@@ -1,9 +1,9 @@
 function BlogCard({ title, time, author, date, image, category }) {
   return (
-    <div className="group md:w-full md:min-w-xs  min-w-1/2 max-w-[280px] cursor-pointer">
+    <div className="group md:w-full md:min-w-lg  min-w-1/2 max-w-[380px] cursor-pointer">
       <img src={image} alt="" />
       <div className="my-3">
-        <span className="my-2 text-xs group-hover:text-primary transition-all uppercase font-MontBold">
+        <span className="my-2  text-xs group-hover:text-primary transition-all uppercase font-MontBold">
           {category}
         </span>
         <div className="gap-4 my-3 flex items-center">

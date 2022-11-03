@@ -4,10 +4,10 @@ import Chevron from "../icons/Chevron";
 export default function Testimonies() {
   return (
     <div className="relative py-28">
-      <div className="font-MontHeavy absolute text-[#5135ff1a] text-[258px] top-0 left-0">
-        “
-      </div>
-      <div className="max-w-6xl mx-auto px-5 grid grid-cols-1 lg:grid-cols-6 ">
+      <div className="max-w-6xl relative mx-auto px-5 grid grid-cols-1 lg:grid-cols-6 ">
+        <div className="font-MontHeavy max-w-6xl mx-auto absolute text-[#5135ff1a] text-[258px] -top-32 -left-16">
+          “
+        </div>
         <div className="col-span-4">
           <div>
             {" "}

@@ -12,7 +12,7 @@ function ProductCard({ color, image, description, title, tags }) {
         />
       </div>
       <div className="my-10">
-        <div className="flex items-center my-3 text-gray-500 font-bold font-MontSemiBold text-sm gap-6">
+        <div className="flex flex-wrap items-center my-3 text-gray-500 font-bold font-MontSemiBold text-sm gap-6">
           {tags.map((e, index) => {
             return <p key={index}>{e}</p>;
           })}
