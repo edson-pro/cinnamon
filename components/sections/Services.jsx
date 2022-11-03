@@ -7,6 +7,7 @@ export default function Services() {
     <div className="bg-[#1C1C1C] bg-noise hero py-14 lg:py-28 ">
       <div className="max-w-6xl gap-5 py-10 mx-auto px-5 grid grid-cols-2 lg:grid-cols-5">
         <div className="col-span-2 lg:mb-0 mb-10">
+          {/* // */}
           <h4 className="md:text-5xl text-4xl text-white leading-3.125 font-MontBold lg:font-MontHeavy ">
             Our services
           </h4>
