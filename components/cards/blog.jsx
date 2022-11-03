@@ -1,6 +1,6 @@
 function BlogCard({ title, time, author, date, image, category }) {
   return (
-    <div className="group md:w-full md:min-w-ax  min-w-[50%] max-w-[352px] cursor-pointer">
+    <div className="group md:w-full md:min-w-xs  min-w-1/2 max-w-[280px] cursor-pointer">
       <img src={image} alt="" />
       <div className="my-3">
         <span className="my-2 text-xs group-hover:text-primary transition-all uppercase font-MontBold">

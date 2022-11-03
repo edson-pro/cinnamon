@@ -6,7 +6,7 @@ export default function WhoWeAre() {
     <div className="bg-[#F6F6F6] py-32 relative">
       <div className="max-w-6xl mx-auto  px-5">
         <div className="col-span-3">
-          <h4 className="lg:text-5xl text-4xl leading-[50px] font-MontBold ">
+          <h4 className="lg:text-5xl text-4xl leading-3.125 font-MontBold ">
             Who we are
           </h4>
           <p className="max-w-md my-8 lg:my-3 text-gray-500 text-opacity-80 text-base leading-7">
@@ -15,8 +15,8 @@ export default function WhoWeAre() {
             countries.
           </p>
           <img
-            className="lg:absolute right-0 max-w-[280px] lg:max-w-xs"
-            src="https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwho-we-are.db3b807b.png&w=1080&q=75"
+            className="lg:absolute right-0 max-w-17.5 lg:max-w-xs"
+            src="/images/who-we-are.webp"
             alt=""
           />
           <div className=" lg:grid hidden max-w-2xl my-12 grid-cols-2 gap-10">

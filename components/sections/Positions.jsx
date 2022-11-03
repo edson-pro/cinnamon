@@ -6,7 +6,7 @@ export default function Positions() {
     <div className="bg-[#1C1C1C] hero py-28 ">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 px-5">
         <div>
-          <h4 className="text-5xl my-6 text-white leading-[50px] font-MontBold ">
+          <h4 className="text-5xl my-6 text-white leading-3.125 font-MontBold ">
             We’re growing
           </h4>
           <p className="lg:max-w-md text-gray-200 text-opacity-80 text-base leading-7 my-3">
@@ -31,10 +31,7 @@ export default function Positions() {
                   {e}
                 </h4>
                 <a href="">
-                  <img
-                    src="https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FarrowRightWhite.ec432a63.png&w=48&q=75"
-                    alt=""
-                  />
+                  <img src="/images/arrowRightWhite.webp" alt="" />
                 </a>
               </div>
             );

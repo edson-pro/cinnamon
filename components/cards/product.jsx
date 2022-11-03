@@ -17,9 +17,10 @@ function ProductCard({ color, image, description, title, tags }) {
             return <p key={index}>{e}</p>;
           })}
         </div>
-        <h4 className="text-4xl leading-[50px] font-MontBold ">
-          Corrily: Optimize prices <br /> to maximize revenue
-        </h4>
+        <h4
+          className="text-4xl leading-3.125 font-MontBold "
+          dangerouslySetInnerHTML={{ __html: title }}
+        ></h4>
         <p className="text-base max-w-2xl leading-8 text-gray-500 my-4">
           {description}
         </p>

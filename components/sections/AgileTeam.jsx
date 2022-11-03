@@ -6,14 +6,14 @@ export default function AgileTeam() {
     <div className="bg-[#F6F6F6] py-20 lg:py-40 relative">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 px-5">
         <div>
-          <h4 className="lg:text-5xl text-4xl leading-[50px] font-MontBold ">
+          <h4 className="lg:text-5xl text-4xl leading-3.125 font-MontBold ">
             Agile team <br />
             on demand
           </h4>
         </div>
         <img
           className="lg:absolute lg:my-0 my-10 max-w-xs right-0 bottom-0"
-          src="https://cinnamon.agency/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fagile-team-on-demand.316271d9.png&w=750&q=75"
+          src="/images/agile-team-on-demand.webp"
           alt=""
         />
         <div>
