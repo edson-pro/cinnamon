@@ -4,7 +4,7 @@ import Button from "../ui/Button";
 
 export default function Services() {
   return (
-    <div className="bg-[#1C1C1C] bg-noise hero py-14 lg:py-28 ">
+    <div className="bg-noise-bg bg-noise hero py-14 lg:py-28 ">
       <div className="max-w-6xl gap-5 py-10 mx-auto px-5 grid grid-cols-2 lg:grid-cols-5">
         <div className="col-span-2 lg:mb-0 mb-10">
           {/* // */}

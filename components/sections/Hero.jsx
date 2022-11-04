@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className=" bg-[#1C1C1C] bg-noise relative w-full bg-[] ">
+    <div className="bg-noise-bg bg-noise relative w-full bg-[] ">
       <div className="lg:py-52 py-24 relative z-20 max-w-6xl mx-auto px-5">
         <div className="">
           <h4 className="lg:text-5 text-5xl leading-3.625 lg:leading-[108px] font-MontHeavy font-extrabold text-white">

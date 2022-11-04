@@ -3,7 +3,7 @@ import Button from "../ui/Button";
 
 export default function WhoWeAre() {
   return (
-    <div className="bg-[#F6F6F6] py-32 relative">
+    <div className="bg-light-bg py-32 relative">
       <div className="max-w-6xl mx-auto  px-5">
         <div className="col-span-3">
           <h4 className="lg:text-5xl text-4xl leading-3.125 font-MontBold ">

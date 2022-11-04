@@ -3,7 +3,7 @@ import Button from "../ui/Button";
 
 export default function Positions() {
   return (
-    <div className="bg-[#1C1C1C] hero py-28 ">
+    <div className="bg-noise-bg bg-noise hero py-28 ">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 px-5">
         <div>
           <h4 className="text-5xl my-6 text-white leading-3.125 font-MontBold ">

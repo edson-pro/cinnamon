@@ -11,7 +11,7 @@ import Input from "../ui/Input";
 
 export default function Footer() {
   return (
-    <div className="bg-noise bg-[#1C1C1C] pb-8 pt-16 ">
+    <div className="bg-noise bg-noise-bg pb-8 pt-16 ">
       <div className="max-w-6xl grid-cols-1 md:gap-0 gap-10 grid md:grid-cols-5 mx-auto px-5">
         <div className="lg:col-span-2 col-span-1 ">
           <a href="">

@@ -3,7 +3,7 @@ function ProductCard({ color, image, description, title, tags }) {
     <div className="lg:my-32 my-16">
       <div
         style={{ background: color }}
-        className="bg-[#91F1C3] overflow-hidden group w-full"
+        className="overflow-hidden group w-full"
       >
         <img
           src={image}

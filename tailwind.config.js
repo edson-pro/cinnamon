@@ -20,6 +20,8 @@ module.exports = {
       },
       colors: {
         primary: "#5135ff",
+        "noise-bg": "#1C1C1C",
+        "light-bg": "#F6F6F6",
       },
       maxHeight: {
         17.5: "17.5rem",

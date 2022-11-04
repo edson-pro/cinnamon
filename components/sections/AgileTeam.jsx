@@ -3,7 +3,7 @@ import Button from "../ui/Button";
 
 export default function AgileTeam() {
   return (
-    <div className="bg-[#F6F6F6] py-20 lg:py-40 relative">
+    <div className="bg-light-bg py-20 lg:py-40 relative">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 px-5">
         <div>
           <h4 className="lg:text-5xl text-4xl leading-3.125 font-MontBold ">
